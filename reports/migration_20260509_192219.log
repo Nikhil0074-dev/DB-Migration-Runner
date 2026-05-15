@@ -1,0 +1,45 @@
+2026-05-09 19:22:19 | WARNING  | src.utils.helpers | Migrations directory not found: /nonexistent
+2026-05-09 19:22:19 | WARNING  | src.notifier.slack_notifier | SLACK_WEBHOOK_URL is not set. Skipping Slack notification.
+2026-05-09 19:22:19 | INFO     | src.notifier.slack_notifier | Slack notification sent successfully.
+2026-05-09 19:22:19 | INFO     | src.notifier.slack_notifier | Slack notification sent successfully.
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Running migration validations on: C:\Users\dell\AppData\Local\Temp\tmpjeg4hw7c
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Found 2 migration file(s).
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Validation passed.
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Running migration validations on: C:\Users\dell\AppData\Local\Temp\tmphvfpo13t
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Found 1 migration file(s).
+2026-05-09 19:22:20 | ERROR    | src.validator.migration_validator | Validation failed:
+Errors:
+  - Invalid filename format: 'create_users.sql'. Expected format: V<version>__<description>.sql
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Running migration validations on: C:\Users\dell\AppData\Local\Temp\tmpiw5ez11t
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Found 1 migration file(s).
+2026-05-09 19:22:20 | ERROR    | src.validator.migration_validator | Validation failed:
+Errors:
+  - Invalid filename format: 'v1__create_users.sql'. Expected format: V<version>__<description>.sql
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Running migration validations on: C:\Users\dell\AppData\Local\Temp\tmp4h44yc23
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Found 2 migration file(s).
+2026-05-09 19:22:20 | ERROR    | src.validator.migration_validator | Validation failed:
+Errors:
+  - Duplicate version number 1: 'V1__another_table.sql' and 'V1__create_users.sql'
+Warnings:
+  - Non-sequential version number: expected V2 but found V1. Gaps in version sequence detected.
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Running migration validations on: C:\Users\dell\AppData\Local\Temp\tmplm5_op_m
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Found 2 migration file(s).
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Validation passed.
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Running migration validations on: C:\Users\dell\AppData\Local\Temp\tmpjv8skq8f
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Found 1 migration file(s).
+2026-05-09 19:22:20 | ERROR    | src.validator.migration_validator | Validation failed:
+Errors:
+  - Migration file is empty: 'V1__create_users.sql'
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Running migration validations on: C:\Users\dell\AppData\Local\Temp\tmpe8igrymp
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Found 1 migration file(s).
+2026-05-09 19:22:20 | ERROR    | src.validator.migration_validator | Validation failed:
+Errors:
+  - Migration file is empty: 'V1__create_users.sql'
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Running migration validations on: C:\Users\dell\AppData\Local\Temp\tmpjmq1b7zs
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Found 1 migration file(s).
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Validation passed.
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Running migration validations on: C:\Users\dell\AppData\Local\Temp\tmpeu8n3wvv
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Found 1 migration file(s).
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Validation passed.
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Running migration validations on: /nonexistent/path
+2026-05-09 19:22:20 | INFO     | src.validator.migration_validator | Running migration validations on: C:\Users\dell\AppData\Local\Temp\tmp60cq90mc

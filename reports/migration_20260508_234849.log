@@ -1,0 +1,45 @@
+2026-05-08 23:48:49 | INFO     | main | === Database Migration Runner ===
+2026-05-08 23:48:49 | INFO     | main | Environment : staging
+2026-05-08 23:48:49 | INFO     | main | Dry Run     : False
+2026-05-08 23:48:49 | INFO     | main | Migrations  : C:\Users\dell\Desktop\db-migration-runner\migrations
+2026-05-08 23:48:49 | INFO     | main | --- Step 1: Validating migrations ---
+2026-05-08 23:48:49 | INFO     | src.validator.migration_validator | Running migration validations on: C:\Users\dell\Desktop\db-migration-runner\migrations
+2026-05-08 23:48:49 | INFO     | src.validator.migration_validator | Found 3 migration file(s).
+2026-05-08 23:48:49 | INFO     | src.validator.migration_validator | Validation passed.
+2026-05-08 23:48:49 | INFO     | main | --- Step 2: Running migrations ---
+2026-05-08 23:48:49 | INFO     | src.db.connection | Connecting to database staging_db@localhost:5432 (attempt 1/5)
+2026-05-08 23:48:53 | WARNING  | src.db.connection | Connection attempt 1 failed: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-05-08 23:48:56 | INFO     | src.db.connection | Connecting to database staging_db@localhost:5432 (attempt 2/5)
+2026-05-08 23:49:00 | WARNING  | src.db.connection | Connection attempt 2 failed: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-05-08 23:49:03 | INFO     | src.db.connection | Connecting to database staging_db@localhost:5432 (attempt 3/5)
+2026-05-08 23:49:07 | WARNING  | src.db.connection | Connection attempt 3 failed: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-05-08 23:49:10 | INFO     | src.db.connection | Connecting to database staging_db@localhost:5432 (attempt 4/5)
+2026-05-08 23:49:14 | WARNING  | src.db.connection | Connection attempt 4 failed: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-05-08 23:49:17 | INFO     | src.db.connection | Connecting to database staging_db@localhost:5432 (attempt 5/5)
+2026-05-08 23:49:22 | WARNING  | src.db.connection | Connection attempt 5 failed: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-05-08 23:49:22 | ERROR    | main | Cannot connect to database: Could not connect to database after 5 attempts: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-05-08 23:49:22 | WARNING  | src.notifier.slack_notifier | SLACK_WEBHOOK_URL is not set. Skipping Slack notification.

@@ -1,0 +1,7 @@
+2026-05-08 23:48:07 | INFO     | src.db.connection | Connecting to database staging_db@localhost:5432 (attempt 1/5)
+2026-05-08 23:48:11 | WARNING  | src.db.connection | Connection attempt 1 failed: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-05-08 23:48:14 | INFO     | src.db.connection | Connecting to database staging_db@localhost:5432 (attempt 2/5)

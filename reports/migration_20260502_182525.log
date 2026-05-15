@@ -1,0 +1,45 @@
+2026-05-02 18:25:25 | WARNING  | src.utils.helpers | Migrations directory not found: /nonexistent
+2026-05-02 18:25:25 | WARNING  | src.notifier.slack_notifier | SLACK_WEBHOOK_URL is not set. Skipping Slack notification.
+2026-05-02 18:25:25 | INFO     | src.notifier.slack_notifier | Slack notification sent successfully.
+2026-05-02 18:25:25 | INFO     | src.notifier.slack_notifier | Slack notification sent successfully.
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Running migration validations on: /tmp/tmpmhn1swxb
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Found 2 migration file(s).
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Validation passed.
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Running migration validations on: /tmp/tmpsn27worr
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Found 1 migration file(s).
+2026-05-02 18:25:25 | ERROR    | src.validator.migration_validator | Validation failed:
+Errors:
+  - Invalid filename format: 'create_users.sql'. Expected format: V<version>__<description>.sql
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Running migration validations on: /tmp/tmp686se95o
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Found 1 migration file(s).
+2026-05-02 18:25:25 | ERROR    | src.validator.migration_validator | Validation failed:
+Errors:
+  - Invalid filename format: 'v1__create_users.sql'. Expected format: V<version>__<description>.sql
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Running migration validations on: /tmp/tmpqnni2fzi
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Found 2 migration file(s).
+2026-05-02 18:25:25 | ERROR    | src.validator.migration_validator | Validation failed:
+Errors:
+  - Duplicate version number 1: 'V1__another_table.sql' and 'V1__create_users.sql'
+Warnings:
+  - Non-sequential version number: expected V2 but found V1. Gaps in version sequence detected.
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Running migration validations on: /tmp/tmpn3_4_jpe
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Found 2 migration file(s).
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Validation passed.
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Running migration validations on: /tmp/tmp7cly5leq
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Found 1 migration file(s).
+2026-05-02 18:25:25 | ERROR    | src.validator.migration_validator | Validation failed:
+Errors:
+  - Migration file is empty: 'V1__create_users.sql'
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Running migration validations on: /tmp/tmpq5xxvktj
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Found 1 migration file(s).
+2026-05-02 18:25:25 | ERROR    | src.validator.migration_validator | Validation failed:
+Errors:
+  - Migration file is empty: 'V1__create_users.sql'
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Running migration validations on: /tmp/tmpi37hd0sl
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Found 1 migration file(s).
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Validation passed.
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Running migration validations on: /tmp/tmpb8d6lkel
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Found 1 migration file(s).
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Validation passed.
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Running migration validations on: /nonexistent/path
+2026-05-02 18:25:25 | INFO     | src.validator.migration_validator | Running migration validations on: /tmp/tmpnrxnyu4v

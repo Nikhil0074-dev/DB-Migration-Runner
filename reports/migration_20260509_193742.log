@@ -1,0 +1,15 @@
+2026-05-09 19:37:42 | INFO     | main | === Database Migration Runner ===
+2026-05-09 19:37:42 | INFO     | main | Environment : staging
+2026-05-09 19:37:42 | INFO     | main | Dry Run     : False
+2026-05-09 19:37:42 | INFO     | main | Migrations  : C:\Users\dell\Desktop\db-migration-runner\migrations
+2026-05-09 19:37:42 | INFO     | main | --- Step 1: Validating migrations ---
+2026-05-09 19:37:42 | INFO     | src.validator.migration_validator | Running migration validations on: C:\Users\dell\Desktop\db-migration-runner\migrations
+2026-05-09 19:37:42 | INFO     | src.validator.migration_validator | Found 3 migration file(s).
+2026-05-09 19:37:42 | INFO     | src.validator.migration_validator | Validation passed.
+2026-05-09 19:37:42 | INFO     | main | --- Step 2: Running migrations ---
+2026-05-09 19:38:16 | ERROR    | main | Cannot connect to database: Could not connect to database after 5 attempts: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-05-09 19:38:16 | WARNING  | src.notifier.slack_notifier | SLACK_WEBHOOK_URL is not set. Skipping Slack notification.
